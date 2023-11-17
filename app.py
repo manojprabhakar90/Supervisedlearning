@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-pickle_in = open('RandomForestModel.pkl', 'rb') 
+pickle_in = open('./RandomForestModel.pkl', 'rb') 
 model = pickle.load(pickle_in)
 
 st.title('Random Forest Model')
