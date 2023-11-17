@@ -1,8 +1,10 @@
 import streamlit as st
 import pickle
 
-pickle_in = open('RandomForestModel.pkl', 'rb') 
-model = pickle.load(pickle_in)
+@st.cache 
+def load_model():
+    model = load('RandomForestModel.pkl')
+    return model
 
 st.title('Random Forest Model')
 google_index = st.number_input('Google Index', min_value=0)  
