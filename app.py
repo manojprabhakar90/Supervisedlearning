@@ -1,6 +1,5 @@
 import streamlit as st
-import pandas as pd
-import pickle
+from joblib import load
 
 def load_model():
     return load('RandomForest.joblib')
