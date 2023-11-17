@@ -7,6 +7,8 @@ def load_model():
     model = load('RandomForestModel.pkl')
     return model
 
+model = load_model()
+
 st.title('Random Forest Model')
 google_index = st.number_input('Google Index', min_value=0)  
 page_rank = st.number_input('Page Rank', min_value=0.0, step=0.1)
