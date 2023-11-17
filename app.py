@@ -1,10 +1,8 @@
 import streamlit as st
-from joblib import load
+import pickle
 
-def load_model():
-    return load('RandomForest.joblib')
-
-model = load_model()
+pickle_in = open('RandomForestModel.pkl', 'rb') 
+model = pickle.load(pickle_in)
 
 st.title('Random Forest Model')
 google_index = st.number_input('Google Index', min_value=0)  
