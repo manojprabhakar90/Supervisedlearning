@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 def load_model():
-    return load('model.joblib')
+    return load('RandomForest.joblib')
 
 model = load_model()
 
