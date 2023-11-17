@@ -3,8 +3,7 @@ import pandas as pd
 import pickle
 
 def load_model():
-    with open('Random_Forest_Model.pkl', 'rb') as file:
-        return pickle.load(file)
+    return load('model.joblib')
 
 model = load_model()
 
