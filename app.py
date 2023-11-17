@@ -21,4 +21,7 @@ if st.button('Predict'):
                               columns=['google_index', 'page_rank', 'nb_hyperlinks', 'nb_www', 'domain_age'])
 
     prediction = model.predict(input_data)
-    st.write('Prediction: ', prediction[0])
+    if prediction==0:
+        st.write("Phishing Website. Please be careful")
+    else:
+        st.write("Genuine Website")
