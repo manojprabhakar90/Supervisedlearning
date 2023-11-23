@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 from joblib import load
 
-@st.cache 
+@st.cache_data 
 def load_model():
     model = load('RandomForestModel.pkl')
     return model
