@@ -10,7 +10,7 @@ def load_model():
 
 model = load_model()
 
-st.title('Random Forest Model')
+st.title('Website Phishing Detection Model')
 google_index = st.number_input('Google Index', min_value=0)  
 page_rank = st.number_input('Page Rank', min_value=0.0, step=0.1)
 nb_hyperlinks = st.number_input('Number of Hyperlinks', min_value=0)
