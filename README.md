@@ -6,4 +6,4 @@ This is part of the supervised learning final project (as part of the Machine Le
 
 Final model is a RandomForest Model. 
 
-The code has been deployed in: https://websitephishing.streamlit.app/
+The code has been deployed in streamlit: https://websitephishing.streamlit.app/. 
