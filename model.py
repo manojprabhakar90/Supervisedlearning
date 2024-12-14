@@ -1,15 +1,15 @@
-import pandas as pd
-import numpy as np
+import pandas as pd # type: ignore 
+import numpy as np# type: ignore 
 import os
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier,AdaBoostClassifier
-from sklearn.tree import DecisionTreeClassifier,ExtraTreeClassifier
-from sklearn.model_selection import KFold
-from sklearn.metrics import accuracy_score,precision_score, recall_score,f1_score,confusion_matrix
-from sklearn.svm import SVC
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-import joblib
+from sklearn.linear_model import LogisticRegression # type: ignore 
+from sklearn.ensemble import RandomForestClassifier,AdaBoostClassifier# type: ignore 
+from sklearn.tree import DecisionTreeClassifier,ExtraTreeClassifier# type: ignore 
+from sklearn.model_selection import KFold# type: ignore 
+from sklearn.metrics import accuracy_score,precision_score, recall_score,f1_score,confusion_matrix# type: ignore 
+from sklearn.svm import SVC# type: ignore 
+from sklearn.preprocessing import StandardScaler# type: ignore 
+from sklearn.model_selection import train_test_split# type: ignore 
+import joblib# type: ignore 
 import warnings
 warnings.filterwarnings("ignore")
 
