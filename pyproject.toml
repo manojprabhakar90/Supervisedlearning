@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "supervisedlearning"
+version = "0.1.0"
+description = ""
+authors = ["Manoj Prabhakar <manojprabhakar.isb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.41.1"
+scikit-learn = "^1.6.0"
+pandas = "^2.2.3"
+joblib = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
