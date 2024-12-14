@@ -1,7 +1,7 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import pickle
-import pandas as pd
-from joblib import load
+import pandas as pd # type: ignore
+from joblib import load# type: ignore
 
 @st.cache_data 
 def load_model():
