@@ -1,5 +1,13 @@
-Updated the Solution from a normal app.py to a docker solution. 
+This is part of MS Data Science Course at University of Colorado Boulder.
 
-The docker build was done using docker build command with poetry install and python 3.10 version. 
+This is part of the supervised learning final project (as part of the Machine Learning Supervised Learning course). The package consists of data folder which contains the dataset, jupyter notebooks folder which has the EDA as part of the assignment. Then a DockerFile which provides the list of steps to be carried out for the application to run. 
 
-To run the application, you can use docker run -p 8501:8501 streamlittest:latest
+The model is a RandomForest Model which has been trained with a small dataset. 
+
+To build the model, you can run python model.py to generate the RandomForestModel.pkl file. 
+
+The package management is done through poetry. 
+
+As part of this, I have build the repo as a Docker Image. 
+
+To run the application, you can type docker run -p 8501:8501 streamlittest:latest
