@@ -1,7 +1,5 @@
 **ABOUT**
-This is part of MS Data Science Course at University of Colorado Boulder.
-
-**WHY**
+This is part of MS Data Science Course at University of Colorado Boulder For Supervised Learning course.
 
 This is part of the supervised learning final project (as part of the Machine Learning Supervised Learning course). The package consists of data folder which contains the dataset, jupyter notebooks folder which has the EDA as part of the assignment. Then a DockerFile which provides the list of steps to be carried out for the application to run. 
 
